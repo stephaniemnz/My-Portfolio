@@ -1,4 +1,79 @@
+body {
+    background-color: whitesmoke;
+}
+
+
 .header {
-    color:black
-    background-color:bisque
+    height: 150px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./coding-background-agabbzkualvrbht8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin: 20px;
+    padding: 10px;
+    color: azure;
+
+}
+
+.nav {
+    font-size: 30px;
+    float: right;
+    color: azure;
+    
+}
+.nav ul li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    color: black;
+}
+
+
+.bio-img {
+    float: left;
+}
+.bio {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif
+}
+.bio p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+.projects{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif
+}
+.contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif
+}
+.contact ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header,
+    .nav {
+        flex-direction: column;},
+    .bio {
+      flex-direction: column;
+    }
+    .projects {
+        flex-direction: column;
+    }
+    .contact {
+        flex-direction: column;
+    }
 }
