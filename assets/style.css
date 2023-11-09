@@ -30,38 +30,80 @@ body {
     display: inline-block;
     margin: 20px;
     padding: 5px;
-    color: black;
+    color: white;
 }
 
 
 .bio-img {
     float: left;
+    padding: 50 px;
+    margin: 50 px;
+    border-radius: 40px;
+    border-color: aliceblue;
+    border-width: 20px;
 }
 .bio {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Times New Roman', Times, serif
+    height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 .bio p {
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 16px;
+    text-align:justify;
 }
+.bio-box {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 0px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #3d3d3dd8;
+  background-color: #050505;
+  margin: 20px;
+}
+
 .projects{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
+.project-box {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #3d3d3dd8;
+    background-color: #050505;
+    margin: 20px;
+  }
+
 .contact {
-    margin-bottom: 20px;
+    margin: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Times New Roman', Times, serif
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
 .contact ul {
     list-style-type: none;
+    font-size: 16px;
 }
+.contact-box {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #3d3d3dd8;
+    background-color:#050505;
+    margin: 20px;
+  }
 
 @media screen and (max-width: 768px) {
     .header,
