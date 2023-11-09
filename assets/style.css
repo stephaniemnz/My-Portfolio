@@ -10,6 +10,7 @@ header {
     background-image: url("./coding-background-agabbzkualvrbht8.jpg");
     background-size: cover;
     background-position: bottom;
+    flex-wrap: wrap;
 
 }
 header h1 {
@@ -31,6 +32,7 @@ nav ul li {
     display: inline-block;
     line-height: 200px;
     margin:0 5px;
+    flex-wrap: wrap;
 }
 nav ul li a {
     color: whitesmoke;
@@ -154,15 +156,4 @@ a:hover{
     margin: 20px;
   }
 
-@media screen and (max-width: 768px) {
-    .header {flex-wrap: wrap;}
-    .bio {
-      flex-wrap: wrap;
-    }
-    .projects {
-        flex-wrap: wrap;
-    }
-    .contact {
-        flex-wrap: wrap;
-    }
-}
+@media all and (max-width: 500px)
