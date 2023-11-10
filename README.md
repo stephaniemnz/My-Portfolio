@@ -1,8 +1,8 @@
 # My-Portfolio
 
 ## Discription:
--This repository contain information about me and showcases my work.
--It also includes information to contact me.
+- This repository contain information about me and showcases my work.
+- It also includes information to contact me.
 
 ## Usage
 
